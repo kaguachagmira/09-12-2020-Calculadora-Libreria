@@ -5735,11 +5735,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\Matematica\\Matematica.Test\\Matematica.Test.csproj",
+      "projectUniqueName": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.Test\\Matematica.Test.csproj",
       "projectName": "Matematica.Test",
-      "projectPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\Matematica\\Matematica.Test\\Matematica.Test.csproj",
+      "projectPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.Test\\Matematica.Test.csproj",
       "packagesPath": "C:\\Users\\Kevin111\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\Matematica\\Matematica.Test\\obj\\",
+      "outputPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kevin111\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5756,8 +5756,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\Matematica\\Matematica.negocio\\Matematica.negocio.csproj": {
-              "projectPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\Matematica\\Matematica.negocio\\Matematica.negocio.csproj"
+            "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.negocio\\Matematica.negocio.csproj": {
+              "projectPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.negocio\\Matematica.negocio.csproj"
             }
           }
         }

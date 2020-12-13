@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\Matematica\\Matematica.Cli\\Matematica.Cli.csproj",
+      "projectUniqueName": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.Cli\\Matematica.Cli.csproj",
       "projectName": "Matematica.Cli",
-      "projectPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\Matematica\\Matematica.Cli\\Matematica.Cli.csproj",
+      "projectPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.Cli\\Matematica.Cli.csproj",
       "packagesPath": "C:\\Users\\Kevin111\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\Matematica\\Matematica.Cli\\obj\\",
+      "outputPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.Cli\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kevin111\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\Matematica\\Matematica.negocio\\Matematica.negocio.csproj": {
-              "projectPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\Matematica\\Matematica.negocio\\Matematica.negocio.csproj"
+            "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.negocio\\Matematica.negocio.csproj": {
+              "projectPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.negocio\\Matematica.negocio.csproj"
             }
           }
         }

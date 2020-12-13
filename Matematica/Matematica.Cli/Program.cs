@@ -16,15 +16,19 @@ namespace Matematica.Cli
             {
                 Console.Clear();
                 Console.WriteLine("**************************");
-                Console.WriteLine("*    Kevin Guachagmira   *");
+                Console.WriteLine("*          Kevin         *");
                 Console.WriteLine("*       09/12/2020       *");
                 Console.WriteLine("*                        *");
                 Console.WriteLine("*    CALCULADORA EN C#   *");
-                Console.WriteLine("*     USANDO UNITTEST    *");
+                Console.WriteLine("*     USANDO UNIT-TEST   *");
                 Console.WriteLine("**************************");
-                Console.WriteLine("(1) Sumar Enteros");
-                Console.WriteLine("(2) Sumar Imaginarios");
-                Console.WriteLine("(3) Salir");
+                Console.WriteLine("(1) Sumar números enteros");
+                Console.WriteLine("(2) Sumar números complejos");
+                Console.WriteLine("(3) Restar números complejos");
+                Console.WriteLine("(4) Multiplicar números complejos");
+                Console.WriteLine("(5) Dividir números complejos");
+                Console.WriteLine("(6) Escalar por número complejo");
+                Console.WriteLine("(7) Salir");
                 Console.WriteLine("Seleccione una opción del menú: ");
                 opcion = int.Parse(Console.ReadLine());
                 Console.Clear();
@@ -42,22 +46,99 @@ namespace Matematica.Cli
                         Console.ReadLine();
                         break;
                     case 2:
-                        
                         Console.WriteLine("Elegiste Sumar numeros complejos");
                         Console.WriteLine("Ingrese la parte real del primer numero complejo");
-                        var realA = int.Parse(Console.ReadLine());
+                        var realA = double.Parse(Console.ReadLine());
                         Console.WriteLine("Ingrese la parte imaginaria del primer numero complejo");
-                        var imaginarioA = int.Parse(Console.ReadLine());
+                        var imaginarioA = double.Parse(Console.ReadLine());
                         Console.WriteLine("Ingrese la parte real del segundo numero complejo");
-                        var realB = int.Parse(Console.ReadLine());
+                        var realB = double.Parse(Console.ReadLine());
                         Console.WriteLine("Ingrese la parte imaginaria del segundo numero complejo");
-                        var imaginarioB = int.Parse(Console.ReadLine());
+                        var imaginarioB = double.Parse(Console.ReadLine());
                         var primerComplejo = new Complejo(realA, imaginarioA);
                         var segundoComplejo = new Complejo(realB, imaginarioB);
 
                         var respuestaSumaComplejos = miCalculadora.SumarComplejos(primerComplejo, segundoComplejo);
 
-                        Console.WriteLine("La respuesa de la suma de los complejos es: " + respuestaSumaComplejos.getX() + "," + respuestaSumaComplejos.getY());
+                        Console.WriteLine("La respuesa de la suma de los complejos es: " + respuestaSumaComplejos.getX() + " , " + respuestaSumaComplejos.getY()+"i");
+                        Console.WriteLine("Presiona una tecla para continuar");
+                        Console.ReadLine();
+                        break;
+                    case 3:
+
+                        Console.WriteLine("Elegiste Restar numeros complejos");
+                        Console.WriteLine("Ingrese la parte real del primer numero complejo");
+                        var realAR = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Ingrese la parte imaginaria del primer numero complejo");
+                        var imaginarioAR = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Ingrese la parte real del segundo numero complejo");
+                        var realBR = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Ingrese la parte imaginaria del segundo numero complejo");
+                        var imaginarioBR = double.Parse(Console.ReadLine());
+                        var primerComplejoR = new Complejo(realAR, imaginarioAR);
+                        var segundoComplejoR = new Complejo(realBR, imaginarioBR);
+
+                        var respuestaRestaComplejos = miCalculadora.RestarComplejos(primerComplejoR, segundoComplejoR);
+
+                        Console.WriteLine("La respuesa de la resta de los complejos es: " + respuestaRestaComplejos.getX() + " , " + respuestaRestaComplejos.getY()+"i");
+                        Console.WriteLine("Presiona una tecla para continuar");
+                        Console.ReadLine();
+                        break;
+                    case 4:
+
+                        Console.WriteLine("Elegiste Multiplicar numeros complejos");
+                        Console.WriteLine("Ingrese la parte real del primer numero complejo");
+                        var realAM = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Ingrese la parte imaginaria del primer numero complejo");
+                        var imaginarioAM = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Ingrese la parte real del segundo numero complejo");
+                        var realBM = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Ingrese la parte imaginaria del segundo numero complejo");
+                        var imaginarioBM = double.Parse(Console.ReadLine());
+                        var primerComplejoM = new Complejo(realAM, imaginarioAM);
+                        var segundoComplejoM = new Complejo(realBM, imaginarioBM);
+
+                        var respuestaMultiplicacionComplejos = miCalculadora.MultiplicarComplejos(primerComplejoM, segundoComplejoM);
+
+                        Console.WriteLine("La respuesa de la multiplicación de los complejos es: " + respuestaMultiplicacionComplejos.getX() + " , " + respuestaMultiplicacionComplejos.getY()+"i");
+                        Console.WriteLine("Presiona una tecla para continuar");
+                        Console.ReadLine();
+                        break;
+                    case 5:
+
+                        Console.WriteLine("Elegiste Dividir numeros complejos");
+                        Console.WriteLine("Ingrese la parte real del primer numero complejo");
+                        var realAD = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Ingrese la parte imaginaria del primer numero complejo");
+                        var imaginarioAD = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Ingrese la parte real del segundo numero complejo");
+                        var realBD = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Ingrese la parte imaginaria del segundo numero complejo");
+                        var imaginarioBD = double.Parse(Console.ReadLine());
+                        var primerComplejoD = new Complejo(realAD, imaginarioAD);
+                        var segundoComplejoD = new Complejo(realBD, imaginarioBD);
+
+                        var respuestaDivisionComplejos = miCalculadora.DividirComplejos(primerComplejoD, segundoComplejoD);
+
+                        Console.WriteLine("La respuesa de la división de los complejos es: " + "(" + respuestaDivisionComplejos[0] +")" + " , " + "(" + respuestaDivisionComplejos[1] +")" +"(i)");
+                        Console.WriteLine("Presiona una tecla para continuar");
+                        Console.ReadLine();
+                        break;
+                    case 6:
+                        Console.WriteLine(" Elegiste Escalar por número complejo");
+                        Console.WriteLine("Ingrese la parte real del primer numero complejo");
+                        var realAE = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Ingrese la parte imaginaria del primer numero complejo");
+                        var imaginarioAE = double.Parse(Console.ReadLine());
+                        Console.WriteLine("Ingrese el escalar");
+                        var escalar = int.Parse(Console.ReadLine());
+
+
+                        var primerComplejoE = new Complejo(realAE, imaginarioAE);
+
+                        var respuestaEscalar = miCalculadora.MultiplicacionPorUnEscalar(primerComplejoE, escalar);
+
+                        Console.WriteLine("La respuesa de la multiplicacion por el escalar es de los complejos es: " + respuestaEscalar.getX() + " , " + respuestaEscalar.getY() + "i");
                         Console.WriteLine("Presiona una tecla para continuar");
                         Console.ReadLine();
                         break;
@@ -67,7 +148,7 @@ namespace Matematica.Cli
                         Console.ReadLine();
                         break;
                 }
-            } while (opcion != 3);
+            } while (opcion != 7);
             
         }
     }

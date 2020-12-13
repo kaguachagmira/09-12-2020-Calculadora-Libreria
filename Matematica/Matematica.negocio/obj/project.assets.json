@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\Matematica\\Matematica.negocio\\Matematica.negocio.csproj",
+      "projectUniqueName": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.negocio\\Matematica.negocio.csproj",
       "projectName": "Matematica.negocio",
-      "projectPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\Matematica\\Matematica.negocio\\Matematica.negocio.csproj",
+      "projectPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.negocio\\Matematica.negocio.csproj",
       "packagesPath": "C:\\Users\\Kevin111\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\Matematica\\Matematica.negocio\\obj\\",
+      "outputPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.negocio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kevin111\\AppData\\Roaming\\NuGet\\NuGet.Config",
