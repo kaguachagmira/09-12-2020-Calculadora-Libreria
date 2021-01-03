@@ -1,4 +1,6 @@
-﻿namespace Matematica.negocio
+﻿using System.Diagnostics.CodeAnalysis;
+
+namespace Matematica.negocio
 {
     public class Complejo
     {
@@ -23,5 +25,14 @@
         }
         public object X { get; set; }
         public object Y { get; set; }
+        //permite saber si un objeto de tipo complejo es igual a otro tipo complejo
+        public bool Equal([AllowNull] Complejo other)
+        {
+            if(x == other.x && y == other.y){
+                return true;
+            }
+                return false;
+        }
     }
+
 }

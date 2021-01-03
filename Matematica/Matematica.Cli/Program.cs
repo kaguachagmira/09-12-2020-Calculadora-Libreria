@@ -16,7 +16,6 @@ namespace Matematica.Cli
             {
                 Console.Clear();
                 Console.WriteLine("**************************");
-                Console.WriteLine("*          Kevin         *");
                 Console.WriteLine("*       09/12/2020       *");
                 Console.WriteLine("*                        *");
                 Console.WriteLine("*    CALCULADORA EN C#   *");

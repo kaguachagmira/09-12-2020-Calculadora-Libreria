@@ -29,7 +29,9 @@ namespace Matematica.Test
             var divisor = 0;
             var miCalculadora = new Calculadora();
             //el resultado que viene no me interesa pero debe tener u resultado _
-             _ = miCalculadora.Dividir(dividendo,divisor);
+             //_ = miCalculadora.Dividir(dividendo,divisor);
+
+            Assert.ThrowsException<ArgumentException>(()=>miCalculadora.Dividir(dividendo,divisor),"Mensaje");
         }
         [TestMethod]
         public void DividirDosNumeros()
@@ -80,6 +82,8 @@ namespace Matematica.Test
 
             Assert.AreEqual(esperadoComplejo.X, resultado.X);
             Assert.AreEqual(esperadoComplejo.Y, resultado.Y);
+
+            Assert.IsTrue(esperadoComplejo.Equals(resultado));
         }
         [TestMethod]
         public void DividirComplejos()
