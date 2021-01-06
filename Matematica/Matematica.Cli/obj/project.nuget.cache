@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A8aakff0bEZKeiWezG+kDyJQCBLtWs2nLT4RuF3u8oAiKrTMxMgXOMgIOLqaCS+0zcqfWkWu33YycDViftgI+Q==",
+  "dgSpecHash": "NiGKUYLw9USC40QUAGLyR44ZsVAX8gQ9WN6zJOcLnIq5RIfsiv+RhJ22wX+yAHk5PJakbPnt7ATRSBgXgQa02g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.Cli\\Matematica.Cli.csproj",
+  "projectFilePath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Arreglar\\09-12-2020-Calculadora-Libreria-UnitTest\\Matematica\\Matematica.Cli\\Matematica.Cli.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

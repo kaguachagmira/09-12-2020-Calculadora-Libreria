@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.Web\\Matematica.Web.csproj": {}
+    "C:\\Users\\Kevin111\\Documents\\Tercero\\Arreglar\\09-12-2020-Calculadora-Libreria-UnitTest\\Matematica\\Matematica.Web\\Matematica.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.Web\\Matematica.Web.csproj": {
+    "C:\\Users\\Kevin111\\Documents\\Tercero\\Arreglar\\09-12-2020-Calculadora-Libreria-UnitTest\\Matematica\\Matematica.Web\\Matematica.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.Web\\Matematica.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Kevin111\\Documents\\Tercero\\Arreglar\\09-12-2020-Calculadora-Libreria-UnitTest\\Matematica\\Matematica.Web\\Matematica.Web.csproj",
         "projectName": "Matematica.Web",
-        "projectPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.Web\\Matematica.Web.csproj",
+        "projectPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Arreglar\\09-12-2020-Calculadora-Libreria-UnitTest\\Matematica\\Matematica.Web\\Matematica.Web.csproj",
         "packagesPath": "C:\\Users\\Kevin111\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.Web\\obj\\",
+        "outputPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Arreglar\\09-12-2020-Calculadora-Libreria-UnitTest\\Matematica\\Matematica.Web\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
           "C:\\Users\\Kevin111\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

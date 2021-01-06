@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y1zDrrivo4N/4g4k6ONqu5Xog9a4xA0ErM5B+RT10AftLTAVJO+sDdNcF5xxunzFjbR5W22+2R/XwJcDcmbo9Q==",
+  "dgSpecHash": "KZQaQ/epnLzJJZ1P8A4LRsLt/Jeq+iGMNoEeoUCb+/ra3zq4ottwmv2U8ga7LrWG18kg77WOKiEUH6nrjOV/Pw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.Web\\Matematica.Web.csproj",
+  "projectFilePath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Arreglar\\09-12-2020-Calculadora-Libreria-UnitTest\\Matematica\\Matematica.Web\\Matematica.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kevin111\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Kevin111\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.1\\microsoft.aspnetcore.cryptography.internal.5.0.1.nupkg.sha512",

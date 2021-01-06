@@ -5730,20 +5730,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kevin111\\.nuget\\packages\\": {}
+    "C:\\Users\\Kevin111\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.Test\\Matematica.Test.csproj",
+      "projectUniqueName": "C:\\Users\\Kevin111\\Documents\\Tercero\\Arreglar\\09-12-2020-Calculadora-Libreria-UnitTest\\Matematica\\Matematica.Test\\Matematica.Test.csproj",
       "projectName": "Matematica.Test",
-      "projectPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.Test\\Matematica.Test.csproj",
+      "projectPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Arreglar\\09-12-2020-Calculadora-Libreria-UnitTest\\Matematica\\Matematica.Test\\Matematica.Test.csproj",
       "packagesPath": "C:\\Users\\Kevin111\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.Test\\obj\\",
+      "outputPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Arreglar\\09-12-2020-Calculadora-Libreria-UnitTest\\Matematica\\Matematica.Test\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
         "C:\\Users\\Kevin111\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5756,8 +5761,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.negocio\\Matematica.negocio.csproj": {
-              "projectPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.negocio\\Matematica.negocio.csproj"
+            "C:\\Users\\Kevin111\\Documents\\Tercero\\Arreglar\\09-12-2020-Calculadora-Libreria-UnitTest\\Matematica\\Matematica.negocio\\Matematica.negocio.csproj": {
+              "projectPath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Arreglar\\09-12-2020-Calculadora-Libreria-UnitTest\\Matematica\\Matematica.negocio\\Matematica.negocio.csproj"
             }
           }
         }

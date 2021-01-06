@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tgT8c+ccq0qwUIXbC32xmwpIE+Qf2eLqAL24Fjyd8Gmzpl2Fm4H1VGmVicGRuk2N0milKAoOTPb1OMuP7rChBA==",
+  "dgSpecHash": "YB/hxbAqP7rkpHqsaPPqIa9/h5SWes/29tb9hQKhGppMwwfaQbW/S1tvhzbfgzh7n5Z+rY6RVQhUnQKva58Jog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Programacion Visual\\09-12-2020-Calculadora-Libreria\\Matematica\\Matematica.Test\\Matematica.Test.csproj",
+  "projectFilePath": "C:\\Users\\Kevin111\\Documents\\Tercero\\Arreglar\\09-12-2020-Calculadora-Libreria-UnitTest\\Matematica\\Matematica.Test\\Matematica.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kevin111\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\Kevin111\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",
